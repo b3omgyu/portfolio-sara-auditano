@@ -1,39 +1,53 @@
-# Sara Auditano | Portfolio
+# Portfolio Sara Auditano
 
-Engineering student interested in telecommunications, IoT, remote sensing and data analysis.
+Engineering student portfolio focused on telecommunications, IoT, remote sensing, data analysis and mobile app prototyping.
 
-## Projects
+## Smart Library Seat Monitoring
 
-### Smart Library Seat Monitoring
-IoT system for real-time monitoring of library seats using STM32, VL53L0X sensors, Bluetooth, Firebase Realtime Database and a web dashboard.
+*Tech stack:* STM32, VL53L0X, Bluetooth, Node.js, Firebase, JavaScript, HTML, CSS
 
-**Technologies:** STM32, C, Bluetooth, Node.js, Firebase, JavaScript, HTML, CSS
+*Key points:*
+- Real-time monitoring of library seat occupancy
+- STM32-based embedded system with distance sensors
+- Bluetooth communication with a Node.js bridge
+- Firebase Realtime Database integration
+- Interactive web dashboard with seat status map
 
-[Open project folder](./smart-library-seat-monitoring)
+[Open project](./smart-library-seat-monitoring)
 
----
+## SAR Tomography for Forest Monitoring
 
-### SAR Tomography for Forest Monitoring
-Academic thesis project focused on SAR tomographic reconstruction using MATLAB, MUSIC and Capon algorithms for forest monitoring applications.
+*Tech stack:* MATLAB, SAR, Tomography, MUSIC, Capon, Signal Processing
 
-**Technologies:** MATLAB, SAR, Remote Sensing, MUSIC, Capon
+*Key points:*
+- Bachelor thesis project on SAR tomography for forest monitoring
+- MATLAB implementation of MUSIC and Capon reconstruction algorithms
+- Comparison of MUSIC reconstructions for NT = 1, 2 and 3
+- Analysis of ground and canopy scattering using DTM and CHM references
 
-[Open project folder](./sar-tomography-thesis)
+[Open project](./sar-tomography-thesis)
 
----
+## Feeelmback – Movie Swipe App
 
-### COVID Data Analysis
-University database project focused on the organization and analysis of COVID-related data.
+*Tech stack:* Swift, iOS, UI/UX Design, Apple Foundation Program
 
-**Technologies:** SQL, Database Design, Data Analysis
+*Key points:*
+- iOS app prototype developed during the Apple Foundation Program
+- Swipe-based movie discovery interface
+- Mobile-first design and user-centered interaction
+- Team-based app design and prototyping experience
 
-[Open project folder](./covid-data-analysis)
+[Open project](./movie-swipe-app)
 
----
+## COVID Database Analysis
 
-### Movie Swipe App
-Prototype of an iOS app designed to help users choose movies through a swipe-based interface.
+*Tech stack:* SQL, PL/SQL, Oracle SQL Developer, Relational Database Design
 
-**Technologies:** iOS, App Design, UI/UX, Prototype
+*Key points:*
+- University database project based on COVID-19 public datasets
+- Master table creation and data cleaning
+- Normalization up to Third Normal Form
+- E/R schema reverse engineering
+- Analytical queries, stored procedures and triggers
 
-[Open project folder](./movie-swipe-app)
+[Open project](./covid-data-analysis)
