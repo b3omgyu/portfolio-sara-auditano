@@ -51,6 +51,11 @@ A user is currently detected.
 
 The system waits 30 seconds before marking a seat as available again, preventing false detections when a user temporarily leaves the seat.
 
+## Project Status
+
+Work in progress.  
+The web dashboard and Firebase integration are implemented, while the hardware communication is currently being tested and improved.
+
 ## Future Improvements
 
 * Mobile application
@@ -63,3 +68,7 @@ Sara Auditano
 Federica Capuano
 
 Ciro Pazzi
+
+B.Sc. Telecommunications Engineering
+
+University of Naples Parthenope
