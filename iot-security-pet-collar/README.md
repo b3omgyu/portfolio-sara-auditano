@@ -1,4 +1,4 @@
-# Auditano_Capuano_SSI
+# IoT Security for Smart Pet Collar
 
 ## Project description
 
@@ -293,3 +293,13 @@ To verify replay mitigation also at network traffic level,
 * the replay attack is correctly detected and blocked
 
 ![Replay blocked via ZAP](docs/img/replay_unauthorized_fase2.PNG)
+
+## Author
+
+Sara Auditano
+
+Federica Capuano
+
+B.Sc. Telecommunications Engineering
+
+University of Naples Parthenope
