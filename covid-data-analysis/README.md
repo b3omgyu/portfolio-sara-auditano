@@ -8,6 +8,9 @@ The project was based on public COVID-19 datasets and focused on the design of a
 
 The work included the creation of an initial master table, normalization up to Third Normal Form, schema enrichment, reverse engineering of a possible E/R model, analytical SQL queries, stored procedures and triggers.
 
+### E/R Conceptual Schema
+![E/R Diagram](images/er_diagram.png)
+
 ## Main Activities
 
 - Creation of a master table from COVID-19 CSV datasets
