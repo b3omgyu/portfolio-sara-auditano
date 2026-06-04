@@ -1,0 +1,398 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: #0f172a;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Sfondo con foto */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("/biblioteca-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  transform: scale(1.02);
+  z-index: -2;
+}
+
+/* Patina sopra la foto */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 23, 42, 0.55),
+    rgba(30, 64, 82, 0.38),
+    rgba(15, 23, 42, 0.58)
+  );
+  z-index: -1;
+}
+
+#app {
+  min-height: 100vh;
+  padding: 34px 25px 30px;
+  text-align: center;
+}
+
+.contenuto {
+  min-height: auto;
+}
+
+/* Header */
+.header {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 22px 20px;
+}
+
+/* Logo sopra il titolo */
+.logo-box {
+  width: 118px;
+  height: 118px;
+  margin: 0 auto 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-box img {
+  width: 98px;
+  height: 98px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Titolo e sottotitolo */
+h1 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.50);
+}
+
+.sottotitolo {
+  margin: 14px auto 0;
+  max-width: 760px;
+  font-size: 18px;
+  color: #e0f2fe;
+  line-height: 1.5;
+  text-align: center;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.48);
+}
+
+.indirizzo {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #dbeafe;
+  text-align: center;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.48);
+}
+
+/* Box riepilogo */
+.riepilogo {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.riepilogo div {
+  min-width: 145px;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 20px 34px;
+  border-radius: 22px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.30);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.riepilogo strong {
+  font-size: 38px;
+  color: #ffffff;
+}
+
+.riepilogo span {
+  margin-top: 4px;
+  font-size: 15px;
+  color: #e0f2fe;
+  text-align: center;
+}
+
+/* Griglia posti */
+.griglia {
+  width: min(920px, 100%);
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 24px;
+}
+
+/* Card posto */
+.posto {
+  min-height: 150px;
+  padding: 28px 20px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.26);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.posto:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 52px rgba(0, 0, 0, 0.38);
+}
+
+.posto h2 {
+  margin: 0 0 14px;
+  font-size: 34px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
+}
+
+.posto p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Stato libero */
+.libero {
+  border-top: 8px solid #2dd4bf;
+}
+
+.libero p {
+  color: #99f6e4;
+}
+
+/* Stato occupato */
+.occupato {
+  border-top: 8px solid #fb7185;
+}
+
+.occupato p {
+  color: #fecdd3;
+}
+
+/* Stato in verifica */
+.verifica {
+  border-top: 8px solid #facc15;
+}
+
+.verifica p {
+  color: #fef08a;
+  text-align: center;
+}
+
+/* Legenda sotto le card */
+.legenda {
+  width: min(920px, 100%);
+  margin: 36px auto 0;
+  padding: 22px 24px 28px;
+  border-radius: 24px;
+  background: rgba(15, 23, 42, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.30);
+  text-align: center;
+}
+
+.legenda h3 {
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* Qui facciamo:
+   prima riga: Libero e Occupato
+   seconda riga: In verifica centrato sotto */
+.legenda-righe {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(230px, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+.legenda-card {
+  padding: 18px 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.16);
+  text-align: center;
+  min-height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.legenda-card-verifica {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: min(430px, 100%);
+  margin-top: 2px;
+}
+
+.legenda-titolo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.legenda-titolo strong {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.legenda-card p {
+  margin: 12px 0 0;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #e0f2fe;
+  text-align: center;
+}
+
+.pallino {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.pallino-libero {
+  background: #2dd4bf;
+}
+
+.pallino-occupato {
+  background: #fb7185;
+}
+
+.pallino-verifica {
+  background: #facc15;
+}
+
+/* Firma sotto tutto, non fissa */
+.footer-autori {
+  width: calc(100% - 32px);
+  max-width: 850px;
+  margin: 42px auto 20px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  color: #f8fafc;
+  background: rgba(15, 23, 42, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  backdrop-filter: blur(14px);
+  text-align: center;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+.footer-autori strong {
+  color: #ffffff;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  #app {
+    padding: 26px 16px 30px;
+  }
+
+  .logo-box {
+    width: 96px;
+    height: 96px;
+  }
+
+  .logo-box img {
+    width: 78px;
+    height: 78px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  .sottotitolo {
+    font-size: 16px;
+  }
+
+  .indirizzo {
+    font-size: 14px;
+  }
+
+  .riepilogo {
+    gap: 14px;
+  }
+
+  .riepilogo div {
+    min-width: 120px;
+    padding: 18px 25px;
+  }
+
+  .riepilogo strong {
+    font-size: 34px;
+  }
+
+  .griglia {
+    gap: 18px;
+  }
+
+  .legenda {
+    padding: 18px 16px 22px;
+  }
+
+  .legenda h3 {
+    font-size: 22px;
+  }
+
+  .legenda-righe {
+    grid-template-columns: 1fr;
+  }
+
+  .legenda-card-verifica {
+    grid-column: auto;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .legenda-card p {
+    font-size: 15px;
+  }
+
+  .footer-autori {
+    width: calc(100% - 24px);
+    margin: 34px auto 16px;
+    border-radius: 18px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
