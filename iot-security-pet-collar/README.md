@@ -53,10 +53,6 @@ This repository is for educational purposes only.
 **Do not deploy this code in production.**
 > Note: All demonstrations were performed in a controlled local environment (localhost).
 
-## Authors
-- Sara Auditano (@b3omgyu)
-- Federica Capuano (@federicacapuano02-maker)
-
 ---
 
 ## Running the project (Phase 1 – insecure)
