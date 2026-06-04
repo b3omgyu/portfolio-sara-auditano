@@ -15,6 +15,19 @@ Engineering student portfolio focused on telecommunications, IoT, remote sensing
 
 [Open project](./smart-library-seat-monitoring)
 
+## 🔒 IoT Security for Smart Pet Collar
+
+*Tech stack:* Python, Flask, OWASP ZAP, Bandit, SonarLint, IoT Security
+
+*Key points:*
+- IoT collar and gateway simulation
+- Threat modeling and attack analysis
+- Spoofing, replay and sniffing attacks
+- Secure communication improvements
+- OWASP ZAP security testing
+
+[Open project](./iot-security-pet-collar)
+
 ## 🌳 SAR Tomography for Forest Monitoring
 
 *Tech stack:* MATLAB, SAR, Tomography, MUSIC, Capon, Signal Processing
