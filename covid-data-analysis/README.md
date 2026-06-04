@@ -43,23 +43,23 @@ The final database includes regional and provincial information together with an
 
 ### Region with the highest population density
 
-![Query 1](docs/query_01_density.png)
+![Query 1](docs/query01_density.png)
 
 ### Average number of new positive cases by region
 
-![Query 3](docs/query_03_avg_positive.png)
+![Query 3](docs/query03_avg_positive.png)
 
 ### Percentage of infected population by region
 
-![Query 5](docs/query_05_infected_percentage.png)
+![Query 5](docs/query05_infected_percentage.png)
 
 ### Monthly trend of positive cases
 
-![Query 10](docs/query_10_monthly_trend.png)
+![Query 10](docs/query10_monthly_trend.png)
 
 ### Positivity index by region
 
-![Query 12](docs/query_12_positivity_index.png)
+![Query 12](docs/query12_positivity_index.png)
 
 ### COVID-19 cases in Campania provinces
 
