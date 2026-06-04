@@ -49,3 +49,11 @@ The iOS project files are available in the `feeelmback` folder.
 
 This project is documented as an academic app prototype developed during the Apple Foundation Program.  
 The repository includes the available source files and a summary of the design process.
+
+## Author
+
+Sara Auditano
+
+B.Sc. Telecommunications Engineering
+
+University of Naples Parthenope
