@@ -37,6 +37,18 @@ The analysis showed that:
 - Two scatterers (NT=2) offered the best reconstruction quality.
 - Capon produced competitive results but was more sensitive to noise.
 
+### MUSIC Reconstruction – NT = 2
+
+![MUSIC NT2](images/music_nt2.png)
+
+### MUSIC Reconstruction Comparison
+
+![MUSIC NT Comparison](images/music_nt_comparison.png)
+
+### Capon Reconstruction
+
+![Capon](images/capon.png)
+
 ## Thesis
 
 University of Naples Parthenope
@@ -47,3 +59,7 @@ Bachelor Thesis:
 ## Author
 
 Sara Auditano
+
+B.Sc. Telecommunications Engineering
+
+University of Naples Parthenope
