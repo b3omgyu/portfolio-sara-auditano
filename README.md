@@ -39,7 +39,7 @@ Engineering student portfolio focused on telecommunications, IoT, remote sensing
 
 [Open project](./movie-swipe-app)
 
-## 🦠 COVID Database Analysis
+## 🦠 COVID-19 Database Analysis
 
 *Tech stack:* SQL, PL/SQL, Oracle SQL Developer, Relational Database Design
 
