@@ -1,4 +1,4 @@
-# Movie Swipe App
+# Feeelmback - Movie Swipe App
 
 Mobile application prototype developed during the Apple Foundation Program.
 
@@ -24,6 +24,8 @@ The experience included design thinking activities, prototyping, teamwork and th
 
 ## Technologies and Skills
 
+* Swift
+* iOS
 * App Design
 * User Experience (UX)
 * User Interface Design (UI)
@@ -42,3 +44,8 @@ The experience included design thinking activities, prototyping, teamwork and th
 ## Source Code
 
 The iOS project files are available in the `feeelmback` folder.
+
+## Project Status
+
+This project is documented as an academic app prototype developed during the Apple Foundation Program.  
+The repository includes the available source files and a summary of the design process.
