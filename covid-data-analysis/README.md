@@ -1,6 +1,8 @@
 # COVID-19 Database Analytics
 
-A relational database project developed using SQL and PL/SQL for the analysis of COVID-19 spread across Italian regions and provinces.
+Relational database project developed using SQL and PL/SQL for the analysis of COVID-19 spread in Italy.
+
+![ER Diagram](docs/er_diagram.png)
 
 ## Project Overview
 
@@ -34,10 +36,6 @@ The final database includes regional and provincial information together with an
 ![Province](docs/create_province.png)
 
 ![Covid Province](docs/create_covid_province.png)
-
-### Entity-Relationship Diagram
-
-![ER Diagram](docs/er_diagram.png)
 
 ## Analytics Queries
 
