@@ -1,68 +1,49 @@
 # SAR Tomography for Forest Monitoring
 
-Bachelor Thesis Project focused on SAR tomographic reconstruction for forest structure analysis.
+Bachelor Thesis – Telecommunications Engineering
 
 ## Overview
 
-This thesis investigates the use of Synthetic Aperture Radar (SAR) tomography techniques to reconstruct the vertical structure of forested areas using multi-baseline SAR acquisitions.
+This project focuses on SAR Tomography (TomoSAR) techniques for the three-dimensional reconstruction of forest structures using multi-baseline radar acquisitions.
 
-The work focuses on the application of the MUSIC and Capon algorithms to estimate the vertical distribution of radar backscatter and identify forest canopy and ground components.
+The work investigates the use of high-resolution spectral estimation algorithms, including:
+
+- MUSIC (Multiple Signal Classification)
+- Capon Beamforming (MVDR)
+
+for the estimation of vertical forest profiles and the separation of ground and canopy scattering components.
 
 ## Objectives
 
-* Understand SAR tomography principles
-* Reconstruct vertical reflectivity profiles
-* Compare MUSIC and Capon algorithms
-* Analyze forest structure from SAR data
+- Study SAR and TomoSAR principles
+- Implement tomographic reconstruction algorithms in MATLAB
+- Compare MUSIC and Capon approaches
+- Analyze forest vertical structure
+- Support future biomass estimation applications
 
-## Dataset
+## Technologies
 
-TropiSAR Dataset
-
-* Acquired over tropical forest areas
-* Multi-baseline SAR acquisitions
-* Polarimetric SAR data
-
-## Methods
-
-### MUSIC Algorithm
-
-Multiple Signal Classification (MUSIC) was used to estimate the vertical reflectivity profile by separating signal and noise subspaces.
-
-### Capon Algorithm
-
-The Capon beamformer was implemented as an adaptive spectral estimation technique and compared with MUSIC results.
-
-## Software
-
-* MATLAB
-* Signal Processing Toolbox
-* SAR Data Processing
+- MATLAB
+- Signal Processing
+- SAR Remote Sensing
+- Tomographic Reconstruction
+- Spectral Estimation
 
 ## Results
 
-The reconstructed tomographic profiles successfully identified the main scattering layers associated with:
+The analysis showed that:
 
-* Ground surface
-* Forest canopy
+- MUSIC provided better separation between ground and canopy layers.
+- Two scatterers (NT=2) offered the best reconstruction quality.
+- Capon produced competitive results but was more sensitive to noise.
 
-The comparison between MUSIC and Capon highlighted the advantages and limitations of both approaches in terms of resolution and robustness.
-
-## Skills Developed
-
-* MATLAB Programming
-* Remote Sensing
-* SAR Signal Processing
-* Spectral Estimation
-* Scientific Data Analysis
-
-## Academic Information
-
-Bachelor Thesis in Telecommunications Engineering
+## Thesis
 
 University of Naples Parthenope
+
+Bachelor Thesis:
+"Tomografia SAR per il monitoraggio delle foreste"
 
 ## Author
 
 Sara Auditano
-
