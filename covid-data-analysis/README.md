@@ -1,56 +1,36 @@
-# COVID Data Analysis
+# COVID Database Analysis
 
-University database project focused on the collection, organization and analysis of COVID-19 related data.
+University project focused on the design and analysis of a relational database for COVID-19 data.
 
 ## Overview
 
-The project aimed to design a structured database capable of storing and analyzing epidemiological information related to the COVID-19 pandemic.
+The project was based on public COVID-19 datasets and focused on the design of a relational database to organize and analyze epidemiological information at provincial and regional level.
 
-The work included database modeling, data organization and the execution of analytical queries to extract meaningful information from large datasets.
+The work included the creation of an initial master table, normalization up to Third Normal Form, schema enrichment, reverse engineering of a possible E/R model, analytical SQL queries, stored procedures and triggers.
 
-## Objectives
+## Main Activities
 
-* Design a relational database
-* Organize COVID-19 related datasets
-* Perform statistical and analytical queries
-* Extract useful information for data interpretation
-
-## Activities
-
-### Database Design
-
-Development of the conceptual and logical database schema.
-
-### Data Management
-
-Organization and storage of pandemic-related information.
-
-### Query Analysis
-
-Use of SQL queries to analyze trends, statistics and relationships between collected data.
+- Creation of a master table from COVID-19 CSV datasets
+- Data cleaning and correction
+- Normalization up to 3NF
+- Design of relational tables for regions, provinces and COVID data
+- Reverse engineering of an E/R conceptual schema
+- Analytical queries on COVID trends
+- Stored procedures and triggers in PL/SQL
 
 ## Technologies
 
-* SQL
-* Relational Databases
-* Database Design
-* Data Analysis
+- SQL
+- PL/SQL
+- Oracle SQL Developer
+- Oracle Live SQL
+- Relational Database Design
 
-## Skills Developed
+## Documentation
 
-* Database Modeling
-* SQL Programming
-* Data Organization
-* Data Analysis
-* Problem Solving
-
-## Academic Information
-
-University Project
-
-University of Naples Federico II
+The original SQL scripts are not currently available.  
+This folder contains the project report documenting the database design process and the implemented logic.
 
 ## Author
 
 Sara Auditano
-
