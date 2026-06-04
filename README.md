@@ -2,7 +2,7 @@
 
 Engineering student portfolio focused on telecommunications, IoT, remote sensing, data analysis and mobile app prototyping.
 
-## Smart Library Seat Monitoring
+## 📚 Smart Library Seat Monitoring
 
 *Tech stack:* STM32, VL53L0X, Bluetooth, Node.js, Firebase, JavaScript, HTML, CSS
 
@@ -15,7 +15,7 @@ Engineering student portfolio focused on telecommunications, IoT, remote sensing
 
 [Open project](./smart-library-seat-monitoring)
 
-## SAR Tomography for Forest Monitoring
+## 🌳 SAR Tomography for Forest Monitoring
 
 *Tech stack:* MATLAB, SAR, Tomography, MUSIC, Capon, Signal Processing
 
@@ -27,7 +27,7 @@ Engineering student portfolio focused on telecommunications, IoT, remote sensing
 
 [Open project](./sar-tomography-thesis)
 
-## Feeelmback – Movie Swipe App
+## 🎬 Feeelmback – Movie Swipe App
 
 *Tech stack:* Swift, iOS, UI/UX Design, Apple Foundation Program
 
@@ -39,7 +39,7 @@ Engineering student portfolio focused on telecommunications, IoT, remote sensing
 
 [Open project](./movie-swipe-app)
 
-## COVID Database Analysis
+## 🦠 COVID Database Analysis
 
 *Tech stack:* SQL, PL/SQL, Oracle SQL Developer, Relational Database Design
 
@@ -51,3 +51,10 @@ Engineering student portfolio focused on telecommunications, IoT, remote sensing
 - Analytical queries, stored procedures and triggers
 
 [Open project](./covid-data-analysis)
+
+## 🎓 Education
+
+**B.Sc. in Telecommunications Engineering**  
+University of Naples Parthenope
+
+---
